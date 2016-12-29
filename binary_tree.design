@@ -1,0 +1,23 @@
+left child, right child
+
+insert:
+
+if no root:
+insert to root
+
+
+last tree is left:
+insert to right sibling
+
+last tree is right:
+
+
+search:
+1.pre-order
+LDR
+2.in-order
+RLD
+3.post-order
+root
+
+可以在遍历时对无子的根做操作，保证对每个节点都操作过了
